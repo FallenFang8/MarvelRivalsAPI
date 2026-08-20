@@ -1,10 +1,122 @@
-<html>
-    <head>
-        <title>MR API</title>
-        <!-- <link rel="icon" type="image/png" href="image.png" /> -->
-    </head>
-    <body>
-        <h1>Welcome to My Website</h1>
-        <p>This is a simple paragraph.</p>
-    </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Secret of Monkey Island</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Georgia, serif;
+            background: #071e26;
+            color: #f5e6b3;
+        }
+
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background:
+                radial-gradient(circle at 50% 20%, #285c63, #071e26 65%);
+        }
+
+        h1 {
+            font-size: 64px;
+            margin: 0;
+            color: #ffd166;
+            text-shadow: 4px 4px 0 #000;
+        }
+
+        .subtitle {
+            font-size: 22px;
+            margin: 15px 0 40px;
+            color: #d8c28f;
+        }
+
+        .ship {
+            font-size: 100px;
+            margin: 20px;
+            filter: drop-shadow(5px 5px 0 #000);
+        }
+
+        .button {
+            display: inline-block;
+            padding: 15px 30px;
+            margin: 10px;
+            border: 2px solid #ffd166;
+            color: #ffd166;
+            text-decoration: none;
+            font-size: 18px;
+            transition: 0.3s;
+        }
+
+        .button:hover {
+            background: #ffd166;
+            color: #071e26;
+            transform: scale(1.08);
+        }
+
+        .card {
+            margin-top: 50px;
+            padding: 25px;
+            max-width: 600px;
+            background: rgba(0, 0, 0, 0.35);
+            border: 1px solid #806b3f;
+        }
+
+        .card h2 {
+            color: #ffd166;
+        }
+
+        footer {
+            margin-top: 40px;
+            color: #8f8a73;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="hero">
+
+        <div class="ship">🏴‍☠️</div>
+
+        <h1>Monkey Island</h1>
+
+        <p class="subtitle">
+            Somewhere beyond the horizon lies a secret...
+        </p>
+
+        <div>
+            <a href="#" class="button">Set Sail</a>
+            <a href="#" class="button">Explore</a>
+        </div>
+
+        <div class="card">
+            <h2>Welcome, Pirate</h2>
+
+            <p>
+                You have arrived on an island filled with pirates,
+                mysterious treasures, dangerous adventures and
+                extremely questionable decisions.
+            </p>
+
+            <p>
+                Your mission is simple:
+                become a legendary pirate.
+            </p>
+        </div>
+
+        <footer>
+            © 2026 The Totally Legitimate Pirate Company
+        </footer>
+
+    </div>
+
+</body>
 </html>
