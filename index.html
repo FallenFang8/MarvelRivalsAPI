@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Secret of Monkey Island</title>
+    <title>The Legend of Luis</title>
 
     <style>
         body {
             margin: 0;
             font-family: Georgia, serif;
-            background: #071e26;
+            background: #1b1026;
             color: #f5e6b3;
         }
 
@@ -21,7 +21,8 @@
             align-items: center;
             text-align: center;
             background:
-                radial-gradient(circle at 50% 20%, #285c63, #071e26 65%);
+                radial-gradient(circle at 50% 20%, #6b3b78, #1b1026 70%);
+            padding: 20px;
         }
 
         h1 {
@@ -33,11 +34,11 @@
 
         .subtitle {
             font-size: 22px;
-            margin: 15px 0 40px;
+            margin: 15px 0 30px;
             color: #d8c28f;
         }
 
-        .ship {
+        .luis {
             font-size: 100px;
             margin: 20px;
             filter: drop-shadow(5px 5px 0 #000);
@@ -56,19 +57,40 @@
 
         .button:hover {
             background: #ffd166;
-            color: #071e26;
+            color: #1b1026;
             transform: scale(1.08);
         }
 
         .card {
-            margin-top: 50px;
+            margin-top: 40px;
             padding: 25px;
-            max-width: 600px;
-            background: rgba(0, 0, 0, 0.35);
+            max-width: 650px;
+            background: rgba(0, 0, 0, 0.4);
             border: 1px solid #806b3f;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
         }
 
         .card h2 {
+            color: #ffd166;
+        }
+
+        .stats {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 25px;
+            flex-wrap: wrap;
+        }
+
+        .stat {
+            background: rgba(255, 209, 102, 0.1);
+            border: 1px solid #806b3f;
+            padding: 15px 25px;
+        }
+
+        .stat strong {
+            display: block;
+            font-size: 25px;
             color: #ffd166;
         }
 
@@ -84,36 +106,64 @@
 
     <div class="hero">
 
-        <div class="ship">🏴‍☠️</div>
+        <div class="luis">🧙‍♂️</div>
 
-        <h1>Monkey Island</h1>
+        <h1>The Legend of Luis</h1>
 
         <p class="subtitle">
-            Somewhere beyond the horizon lies a secret...
+            Small in height. Massive in confidence.
         </p>
 
         <div>
-            <a href="#" class="button">Set Sail</a>
-            <a href="#" class="button">Explore</a>
+            <a href="#" class="button">Measure Luis</a>
+            <a href="#" class="button">Find Luis</a>
         </div>
 
         <div class="card">
-            <h2>Welcome, Pirate</h2>
+
+            <h2>Welcome to Luis Island</h2>
 
             <p>
-                You have arrived on an island filled with pirates,
-                mysterious treasures, dangerous adventures and
-                extremely questionable decisions.
+                Deep within the ancient lands lives a mysterious creature
+                known only as <strong>Luis</strong>.
             </p>
 
             <p>
-                Your mission is simple:
-                become a legendary pirate.
+                Scientists have spent years studying this phenomenon.
+                Their conclusion?
             </p>
+
+            <h2>He's just really short.</h2>
+
+            <p>
+                Despite his limited vertical capabilities, Luis has
+                somehow survived this long and continues to walk among
+                us.
+            </p>
+
+            <div class="stats">
+
+                <div class="stat">
+                    <strong>???</strong>
+                    Height
+                </div>
+
+                <div class="stat">
+                    <strong>100%</strong>
+                    Confidence
+                </div>
+
+                <div class="stat">
+                    <strong>2m</strong>
+                    Ego
+                </div>
+
+            </div>
+
         </div>
 
         <footer>
-            © 2026 The Totally Legitimate Pirate Company
+            © 2026 The Totally Legitimate Luis Research Institute
         </footer>
 
     </div>
